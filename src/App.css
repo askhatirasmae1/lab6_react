@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+}
+
+/* Container */
+.app-container {
+  max-width: 1050px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Section card (GLASS EFFECT) */
+section {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  padding: 22px;
+  margin-bottom: 18px;
+  border-radius: 18px;
+
+  transition: 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  border-color: rgba(99, 102, 241, 0.6);
+}
+
+/* Titles */
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #a5b4fc;
+}
+
+/* Buttons (modern gradient neon) */
+button {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.3);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.5);
+}
+
+/* Input */
+input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  color: white;
+  outline: none;
+  width: 220px;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+/* Text */
+p, li {
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+}
+
+/* List */
+ul {
+  padding-left: 18px;
+}
